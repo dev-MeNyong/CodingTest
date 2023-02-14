@@ -33,7 +33,9 @@ function solution(common) {
 console.log(solution(commons));
 console.log(solution(v));
 /*
-간단하면서도 굉장한 풀이,,,
+pop()쓸 생각을 안했다... 
+기본 전제가 등차수열 아니면 등비수열을 입력해주는 것이기 때문에 위에처럼 다 검사할 필요는 없었던 것.
+
 function solution(common) {
     if ((common[1]-common[0])==(common[2]-common[1])){
         return common.pop() + common[1] - common[0];
