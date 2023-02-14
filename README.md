@@ -1,1 +1,1 @@
-# baekjoon_test
+# JavaScript로 Programmers 문제 풀이
